@@ -5,7 +5,7 @@
       event.preventDefault();
     }, false);
 
-
+    //helper function create the canvas
     function createCanvas(parent, width, height) {
         var canvas = {};
         canvas.node = document.createElement('canvas');
